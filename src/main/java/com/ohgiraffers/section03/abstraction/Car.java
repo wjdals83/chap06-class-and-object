@@ -5,8 +5,8 @@ public class Car {
     private boolean isOn;       // 초기에는 시동이 꺼진 false 상태이다.
     private int speed;
 
-    /* 시동이 걸려있는 상태인 경우 할 일이 업속, 시동이 걸려있지 않으면 시동을 건다. */
-    public void starUp() {
+    /* 시동이 걸려있는 상태인 경우 할 일이 없고, 시동이 걸려있지 않으면 시동을 건다. */
+    public void startUp() {
 
         if(isOn) {
             System.out.println("이미 시동이 걸려있습니다.");

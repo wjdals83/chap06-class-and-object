@@ -50,7 +50,7 @@ public class Application01 {
          *   클래스에 작성한 내용대로 사용할 수 있다.
          *  */
 
-        Member member = new Member();
+        Member member = new Member();       // 이 상태는 heap이라는 공간에 기본값들도 초기화 된다.
 
         /* 목차. 2-2. 생성된 인스턴스의 초기값 확인하기 */
 

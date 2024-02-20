@@ -9,9 +9,9 @@ public class CarRacer {
     * */
     private final Car car = new Car();      //카레이서 속성 클래스로 카를 만들음.
 
-    public void statUp() {
+    public void startUp() {
 
-        car.starUp();
+        car.startUp();
 
     }
 
